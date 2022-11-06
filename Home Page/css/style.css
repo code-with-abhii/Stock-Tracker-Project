@@ -4,6 +4,14 @@ body {
   background-color: #ffffff;
 }
 
+.title{
+  background-color: #feb543;
+  border-radius: 25px ;
+  color: white;
+  padding: 8px;
+  font-size: 17px;
+}
+
 .layout_padding {
   padding: 75px 0;
 }
