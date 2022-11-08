@@ -24,7 +24,6 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet"/>
 </head>
-
 <body>
   <div class="hero_area">
     <!-- header section strats -->
@@ -316,9 +315,9 @@
     </div>
 
     <div class="d-flex justify-content-center">
-      <button type="submit" class="">Send</button>
+      <button type="submit"> <a href="mailto:abhishekdabekar414@gmail.com?subject=look at this website">Send</a></button>
     </div>
-    </form>
+    </form> 
     
   </section>
 
@@ -569,11 +568,7 @@
     </section>
     <!-- footer section -->
   </div>
-
-
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-
-
 
 </body></html>

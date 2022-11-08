@@ -57,20 +57,22 @@
                 </div>
                 <form action= "../Home Page/home.php" class="signin-form">
                   <div class="form-group mb-3">
-                    <label class="label" for="name">Username</label>
+                    <label class="label">Username</label>
                     <input
                       type="text"
                       class="form-control"
                       placeholder="Username"
+                      name="user_name"
                       required
                     />
                   </div>
                   <div class="form-group mb-3">
-                    <label class="label" for="password">Password</label>
+                    <label class="label">Password</label>
                     <input
                       type="password"
                       class="form-control"
                       placeholder="Password"
+                      name="user_password" 
                       required
                     />
                   </div>
@@ -97,7 +99,7 @@
                 </form>
                 <p class="text-center">
                   Not a member?
-                  <a href="../signup_page/signup.html">Sign Up</a>
+                  <a href="../signup_page/signup.php">Sign Up</a>
                 </p>
               </div>
             </div>
@@ -105,7 +107,6 @@
         </div>
       </div>
     </section>
-
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
