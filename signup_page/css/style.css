@@ -130,7 +130,7 @@ select {
 
 button {
   border: none;
-  float: right;
+  float: left;
   width: 152px;
   height: 42px;
   cursor: pointer;
@@ -138,6 +138,7 @@ button {
   align-items: center;
   justify-content: center;
   padding: 0;
+  margin-left: 185px;
   background: #ea9f48;
   font-size: 13px;
   color: #fff;

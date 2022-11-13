@@ -1,28 +1,35 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"/>
+<!DOCTYPE html>
+<html>
 
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<head>
+  <meta charset="utf-8" />
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <meta name="keywords" content=""/>
-  <meta name="description" content=""/>
-  <meta name="author" content=""/>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
   <title>Stock Tracker</title>
 
   <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
   <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&amp;display=swap"
+    rel="stylesheet" />
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet"/>
+  <link href="css/responsive.css" rel="stylesheet" />
+  
 </head>
 <body>
   <div class="hero_area">
@@ -32,10 +39,11 @@
         <div class="row">
           <div class="col-lg-8">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
-                <span class="title">
-                  Stock Tracker
-                </span>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="title">
+                Stock Tracker
+              </span>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
@@ -49,7 +57,7 @@
                       <a class="nav-link" href="about.html">About </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio </a>
+                      <a class="nav-link" href="api.php">Portfolio </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="service.html">Services </a>
@@ -58,7 +66,7 @@
                       <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                   </ul>
-<!--
+                  <!--
                   <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                     <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
                   </form>
@@ -81,8 +89,8 @@
                 <div class="col-lg-5 col-md-6">
                   <div class="slider_detail-box">
                     <h1>
-                      Start <br/>
-                      Stock Tracking <br/>
+                      Start <br />
+                      Stock Tracking <br />
                       With Us!
                     </h1>
                     <p>
@@ -97,7 +105,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="slider_img-box">
-                    <img src="images/stk.jpg" alt=""/>
+                    <img src="images/stk.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -122,19 +130,20 @@
 
       <div class="layout_padding2">
         <div class="img-box">
-          <img src="images/stock.jpeg" alt=""/>
+          <img src="images/stock.jpeg" alt="" />
         </div>
         <div class="detail-box">
           <p>
-           Stock Tracker gives you the current price of a stock in real time and also provides you with details like high, low, close, open price of a stock. 
+            Stock Tracker gives you the current price of a stock in real time and also provides you with details like
+            high, low, close, open price of a stock.
           </p>
-          
+
         </div>
       </div>
 
     </div>
   </section>
-   <!--end welcome section -->
+  <!--end welcome section -->
 
 
   <!-- service section -->
@@ -149,12 +158,12 @@
       <div class="service_container layout_padding2">
 
         <div class="service_box">
-<!--            
+          <!--            
           <div class="img-box">
             <img src="images/s-1.jpg" alt=""/>
           </div>
 -->
-<!--
+          <!--
           <div class="detail-box">
             <h4>
               Business <br/>
@@ -169,11 +178,11 @@
         </div>
         <div class="service_box">
           <div class="img-box">
-            <img src="images/stk1.jpg" alt=""/>
+            <img src="images/stk1.jpg" alt="" />
           </div>
           <div class="detail-box">
             <h4>
-              Stock <br/>
+              Stock <br />
               Analysis
             </h4>
             <p>
@@ -182,7 +191,7 @@
           </div>
         </div>
         <div class="service_box">
-<!--
+          <!--
           <div class="img-box">
             <img src="images/s-3.jpg" alt=""/>
           </div>
@@ -201,50 +210,50 @@
       </div>
     </div>
   </section>
-<!-- end service section -->
- 
+  <!-- end service section -->
+
   <!-- why section -->
-     <section class="why_section layout_padding">
+  <section class="why_section layout_padding">
     <div class="container">
       <div class="custom_heading-container" id="why_choose_us">
-        <h2 >
+        <h2>
           Why Choose Us
         </h2>
       </div>
       <div class="content-container">
         <p>
-         We provide the best and most updated solution over Portfolio Management in the market.
+          We provide the best and most updated solution over Portfolio Management in the market.
         </p>
         <div class="row">
           <div class="col-md-3 col-sm-6">
             <div class="img-box">
-              <img src="images/smiley.png" alt=""/>
+              <img src="images/smiley.png" alt="" />
             </div>
             <div class="detail-box">
               <h3>
                 99%
               </h3>
               <h6>
-               Accuracy
+                Accuracy
               </h6>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="img-box">
-              <img src="images/monitor.png" alt=""/>
+              <img src="images/monitor.png" alt="" />
             </div>
             <div class="detail-box">
               <h3>
                 Real time
               </h3>
               <h6>
-               price tracking
+                price tracking
               </h6>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="img-box">
-              <img src="images/multiple-users-silhouette.png" alt=""/>
+              <img src="images/multiple-users-silhouette.png" alt="" />
             </div>
             <div class="detail-box">
               <h3>
@@ -257,14 +266,14 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="img-box">
-              <img src="images/bar-chart.png" alt=""/>
+              <img src="images/bar-chart.png" alt="" />
             </div>
             <div class="detail-box">
               <h3>
                 1000+
               </h3>
               <h6>
-               Stocks
+                Stocks
               </h6>
             </div>
           </div>
@@ -272,7 +281,7 @@
       </div>
     </div>
   </section>
-<!-- end why section -->
+  <!-- end why section -->
 
   <!-- contact section -->
   <section class="contact_section layout_padding">
@@ -286,18 +295,18 @@
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputName4">Name</label>
-            <input type="text" class="form-control" id="inputName4"/>
+            <input type="text" class="form-control" id="inputName4" />
           </div>
           <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4"/>
+            <input type="email" class="form-control" id="inputEmail4" />
           </div>
 
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputNumber4">Phone number</label>
-            <input type="tel" class="form-control" id="inputNumber4"/>
+            <input type="tel" class="form-control" id="inputNumber4" />
           </div>
           <div class="form-group col-md-6">
             <label for="inputState">Select Service</label>
@@ -310,15 +319,16 @@
         </div>
         <div class="form-group">
           <label for="inputMessage">Message</label>
-          <input type="text" class="form-control" id="inputMessage" placeholder=""/>
+          <input type="text" class="form-control" id="inputMessage" placeholder="" />
         </div>
     </div>
 
     <div class="d-flex justify-content-center">
-      <button type="submit"> <a href="mailto:abhishekdabekar414@gmail.com?subject=look at this website">Send</a></button>
+      <button type="submit"> <a
+          href="mailto:abhishekdabekar414@gmail.com?subject=look at this website">Send</a></button>
     </div>
-    </form> 
-    
+    </form>
+
   </section>
 
 
@@ -529,17 +539,17 @@
         <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
           <div class="social-box">
             <a href="">
-              <img src="images/fb.png" alt=""/>
+              <img src="images/fb.png" alt="" />
             </a>
 
             <a href="">
-              <img src="images/twitter.png" alt=""/>
+              <img src="images/twitter.png" alt="" />
             </a>
             <a href="">
-              <img src="images/linkedin1.png" alt=""/>
+              <img src="images/linkedin1.png" alt="" />
             </a>
             <a href="">
-              <img src="images/instagram1.png" alt=""/>
+              <img src="images/instagram1.png" alt="" />
             </a>
           </div>
           <div class="form_container mt-5">
@@ -547,7 +557,7 @@
               <label for="subscribeMail">
                 Newsletter
               </label>
-              <input type="email" placeholder="Enter Your email" id="subscribeMail"/>
+              <input type="email" placeholder="Enter Your email" id="subscribeMail" />
               <button type="submit">
                 Subscribe
               </button>
@@ -570,5 +580,8 @@
   </div>
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
 
-</body></html>
+</body>
+
+</html>

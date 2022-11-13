@@ -1,3 +1,35 @@
+ <?php
+require_once "../Home page/config.php";
+// require_once "../signup_page/signup.php"; 
+
+// if($con){
+//   echo "connection ok";
+// }
+// else {
+//   echo "not working";
+// }
+
+if(isset($_POST['user_email']) || isset($_POST['user_password']))
+{
+    $user_email = $_POST['user_email'];
+    $user_password = $_POST['user_password'];
+    $query = "SELECT * from user_details where user_email = $user_email and user_password = $user_password";
+    $result = pg_query($con, $query);
+    //$query = "SELECT* from verify($1, $2);";
+    //$res = pg_query_params($con, $res, array('user_email','user_password'));
+    //$result = pg_fetch_object($res);
+    if($result)
+    {
+      echo "login successfull";
+        //header('location: home.php');
+    }
+    else
+    {
+      echo "<h3>Invalid username or password!</h3>";
+   }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -55,14 +87,14 @@
                     </p>
                   </div>
                 </div>
-                <form action= "../Home Page/home.php" class="signin-form">
+                <form action= "" class="signin-form">
                   <div class="form-group mb-3">
-                    <label class="label">Username</label>
+                    <label class="label">Username (Email)</label>
                     <input
                       type="text"
                       class="form-control"
                       placeholder="Username"
-                      name="user_name"
+                      name="user_email"
                       required
                     />
                   </div>
